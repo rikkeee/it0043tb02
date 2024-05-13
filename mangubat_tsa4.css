@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sedan+SC&display=swap');
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: url(./mh4k.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#namielle{
+    height: 175px;
+    float: right;
+    background-color: rgb(139, 120, 141);
+}
+.p1{
+    text-align: center;
+}
+#logo{
+    height: 120px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50;
+    font-family: 'Sedan SC';
+    color: yellow;
+    font-style: underline;
+    text-decoration: underline;
+}
+
+.p1{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 15;
+    font-weight: bold;
+    font-family: 'Rock Salt', sans-serif;
+    color:rgb(99, 0, 86);
+    text-align: center;
+    background-color: rgba(126, 105, 28, 0.551);
+}
+.p2{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 15;
+    font-weight: bold;
+    font-family: 'Rock Salt', sans-serif;
+    color:rgb(99, 0, 86);
+    text-align: center;
+    background-color: rgba(126, 105, 28, 0.551);
+}
+#linesect{
+    text-align: center;
+    font-weight: 900;
+}
+.p3{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 10;
+    font-weight: bold;
+    font-family: 'Rock Salt', sans-serif;
+    color:rgb(61, 9, 54);
+    text-align: center;
+    background-color: rgba(126, 105, 28, 0.551);
+}
+.p4{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 10;
+    font-weight: bold;
+    font-family: 'Rock Salt', sans-serif;
+    color:rgb(61, 9, 54);
+    text-align: center;
+    background-color: rgba(126, 105, 28, 0.551);
+}
