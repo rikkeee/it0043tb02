@@ -50,9 +50,10 @@ h2{
     text-align: center;
     background-color: rgba(126, 105, 28, 0.551);
 }
-#linesect{
-    text-align: center;
-    font-weight: 900;
+
+#emphasis{
+    font-weight: bold;
+    color:aquamarine;
 }
 .p3{
     margin-left: 200px;
