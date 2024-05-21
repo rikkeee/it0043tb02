@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-image: url(https://i.pinimg.com/736x/a1/86/a8/a186a8aff83506c70b0b307e3fb062c8.jpg);
+    background-size: cover;
+}
+
+h1 {
+    padding: 2%;
+    border-radius: 50%;
+    font-size: 17.5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: bolder;
+}
+
+.gumitnakaprequel {
+    position: relative;
+    top: 42.5px;
+}
+
+.gitna {
+    position: relative;
+    top: 5px;
+}
+
+.gumenggengka {
+    position: relative;
+    top: 25px;
+}
+
+.gumitnaka {
+    position: relative;
+    top: 8.5px;
+}
+
+.gumitnaka2 {
+    position: relative;
+    top: 20px;
+    height: 150px;
+}
+
+.gumitnaka3 {
+    position: relative;
+    top: 35px;
+}
+
+.container {
+ 
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    padding: 5%;
+}
+
+
+
+.blazicard {
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 2%;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-golden-bright-light-gold-shine-burst-shine-light-star-generative-ai_58409-36443.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714089600&semt=ais);
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.unfecard {
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 2%;
+    background-image: url(https://img.freepik.com/premium-vector/comics-background-gradient-halftone-pattern-vector-illustration_370567-2159.jpg);
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.absolcard {
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 2%;
+    background-image: url(https://wallpapers.com/images/featured/moon-background-mqcx9pq0fg2ma4lp.jpg);
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.genggengcard {
+
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 2%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZpSiKSLoR5UD3esO5Op_6IZx26RgRLxhF6_Kw_mY7sA&s);
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.salacard {
+
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 2%;
+    background-image: url(https://img.freepik.com/premium-vector/blue-background-with-burst_230977-1792.jpg);
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.zorocard {
+
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 2%;
+    background-image: url(https://img.freepik.com/free-vector/flat-design-yellow-comics-wallpaper_23-2148801759.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716076800&semt=ais_user);
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image {
+
+    margin: 0px auto;
+    background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-blue-background_23-2149762303.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 2%;
+    border: 3px solid black;
+
+}
+
+.pokimage {
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    position: relative;
+    top: 30px;
+}
+
+.pokedetails {
+
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.type {
+    font-family: "Play", sans-serif;
+}
+
+.Electric {
+    padding: 7.5px;
+    background-color: gold;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.fire {
+    padding: 7.5px;
+    background-color: rgb(252, 123, 72);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.flying {
+    padding: 7.5px;
+    background-color: hsl(172, 82%, 56%);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.dragon {
+    padding: 7.5px;
+    background-color: rgb(81, 46, 209);
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.normal {
+    padding: 7.5px;
+    background-color: rgb(193, 202, 105);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.dark {
+    padding: 7.5px;
+    background-color: rgb(35, 32, 75);
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.Ghost {
+    padding: 7.5px;
+    background-color: indigo;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.Poison {
+    padding: 7.5px;
+    background-color: purple;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.fighting {
+    padding: 7.5px;
+    background-color: goldenrod;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.add {
+    border-radius: 10%;
+    padding: 2%;
+    transition-duration: 0.5s;
+    background-color: rgb(143, 143, 255);
+}
+
+.add:hover {
+    background-color: rgb(72, 72, 129);
+    color: white;
+}
+
+.release {
+    border-radius: 10%;
+    padding: 2%;
+    background-color: chocolate;
+    transition-duration: 0.5s;
+}
+
+.release:hover {
+    background-color: coral;
+    color: white;
+}
+
+.desc {
+    margin: 5%;
+    padding: 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+img {
+    margin: 0px auto;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.descbg {
+    background-image: url(https://us.123rf.com/450wm/apostrophe/apostrophe1310/apostrophe131000006/22507614-abstrakte-orange-hintergrund-pfirsich-farbe-elegant-warmen-hintergrund-von-vintage-grunge.jpg?ver=6);
+    margin-top: 10px;
+    height: 265px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    box-shadow: inset 1px 2px 3px #000;
+}
