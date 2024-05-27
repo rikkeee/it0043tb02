@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+* {
+    padding: 0;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+p{
+    display: none;
+    /* flex-wrap: wrap; */
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80wv;
+    margin: 20px auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    /* border: 1px solid black; */
+}
+
+.pokemonInfo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100%;
+    border: 5px solid black;
+    border-radius: 10px;
+    transition: 1s all EASE;
+}
+
+#bells {
+    background-color: FFFFBF;
+}
+
+#bulba {
+    background-color: 7AC74C;
+}
+
+#cater {
+    background-color: A6B91A;
+}
+
+#char {
+    background-color: EE8130;
+}
+
+#drati {
+    background-color: 6F35FC;
+}
+
+#eevee {
+    background-color: AD764E;
+}
+
+#jiggly {
+    background-color: D685AD;
+}
+
+#meowth {
+    background-color: A8A77A;
+}
+
+#mew {
+    background-color: F95587;
+}
+
+#pika {
+    background-color: F7D02C;
+}
+
+#psy {
+    background-color: 6390F0;
+}
+
+#zubat {
+    background-color: A33EA1;
+}
+
+img {
+    height: 275px;
+    width: 275px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+.pokeball{
+    display: none;
+}
+
+
+@media(max-width: 1000px) {
+    .flexcontainer{
+        flex-direction: column;
+    }
+
+    .pokemonInfo { 
+        height: 50%;
+        width: 80%;
+        justify-content: center;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    p{
+        display: inline;
+        align-content: center;
+        margin: 0px auto;
+        font-family: "VT323", monospace;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 50;
+        color: white;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 2px #000000;
+    }
+
+    .pokeball{
+        display: inline;
+        width: 100px;
+        height: 100px;
+    }
+    
+    #bells:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0vBAEiFRP80Tkkq8RHmsNBVsDAxETN2A7QQ&s);
+        transition-duration: 0.5s;
+    }
+    #bulba:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbO42Xttf-c5_qekEpefeuIa9mb5TN0tvqE6rSwW1P8z4hAEX-jetPlR3QqentvBO48nQ&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #cater:hover{
+        background-position: center;
+        background-image: url(https://wallpapers.com/images/hd/cute-pokemon-caterpie-pattern-oy9l4xmq0ctbsctq.jpg);
+        transition-duration: 0.5s;
+    }
+    #char:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbn_FDLtdQcwNQSI9kFzHIguv0qIWbOsDI_X6bb1iofq138sr9qLELSnGy1VsuypN1T-Y&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #drati:hover{
+        background-position: center;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/128/921/267/tail-pokemon-background-dratini-wallpaper-preview.jpg);
+        transition-duration: 0.5s;
+    }
+    #eevee:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ff0958eb-64ac-4660-97c3-97617a261ed7/ddo4pgz-15562dfc-4f58-494a-922c-9d9a286ae4c5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZmMDk1OGViLTY0YWMtNDY2MC05N2MzLTk3NjE3YTI2MWVkN1wvZGRvNHBnei0xNTU2MmRmYy00ZjU4LTQ5NGEtOTIyYy05ZDlhMjg2YWU0YzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vH-Fnq265W7Qp20-T3ETXTQePCrnn8Og1wECgAMtKy0);
+        transition-duration: 0.5s;
+    }
+    #jiggly:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26887395-78f4-441d-a6e0-cc877fa24b54/deem1e2-b544d5cc-b9e2-4ac9-94b7-5ccd74161f75.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ODg3Mzk1LTc4ZjQtNDQxZC1hNmUwLWNjODc3ZmEyNGI1NFwvZGVlbTFlMi1iNTQ0ZDVjYy1iOWUyLTRhYzktOTRiNy01Y2NkNzQxNjFmNzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3ofnlCTNZ62FPBLzn3FqW_OGav8YzbkSXiTuRqJDW60);
+        transition-duration: 0.5s;
+    }
+    #meowth:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLrPtyu9JiEvMDvlH4GIbZqUpCT1bDaYliCebepxn93t3Qzff0_WfugCJuXD_wTWGpr0&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #mew:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Uj1SUu3JnonFqiSFJP0ocQ2ES-KtVW_5MBxLfA3hYkmxkzpKncuEg-6SwkWFXBFMcJI&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #pika:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26887395-78f4-441d-a6e0-cc877fa24b54/deejrt3-3c33eed3-d378-4f78-b8c6-fc6fa60575d9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ODg3Mzk1LTc4ZjQtNDQxZC1hNmUwLWNjODc3ZmEyNGI1NFwvZGVlanJ0My0zYzMzZWVkMy1kMzc4LTRmNzgtYjhjNi1mYzZmYTYwNTc1ZDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GLyG-NJ33bIHSVsd14MaodgIjhnEw-OvpmRtiyucEG0);
+        transition-duration: 0.5s;
+    }
+   #psy:hover{
+        background-position: center;
+        background-image: url(https://w0.peakpx.com/wallpaper/168/922/HD-wallpaper-psyducks-cartoons-cute-pattern-pokemon-psyduck-sweet-thumbnail.jpg);
+        transition-duration: 0.5s;
+    }
+    #zubat:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/30d00acf-6b20-43e6-aae0-278a73505ab0/ddgjq55-a7e241a2-6f28-4768-b78a-66f198705701.png/v1/fill/w_711,h_668,q_80,strp/zubat_line_pattern_by_andcetera_ddgjq55-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjY4IiwicGF0aCI6IlwvZlwvMzBkMDBhY2YtNmIyMC00M2U2LWFhZTAtMjc4YTczNTA1YWIwXC9kZGdqcTU1LWE3ZTI0MWEyLTZmMjgtNDc2OC1iNzhhLTY2ZjE5ODcwNTcwMS5wbmciLCJ3aWR0aCI6Ijw9NzExIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.11taqvWC1Bro74t8jk6oi3VlHt0Zr2uj0nVgLU_7q1E);
+        transition-duration: 0.5s;
+    }
+
+}
+
+@media(max-width: 705.60px){
+    .flexcontainer{
+        flex-direction: column;
+    }
+    .pokemonInfo{
+        width: 400px;
+    }
+    img{
+        height: 275px;
+        width: 275px;
+        margin: 10px;
+    }
+    p{
+        display: inline;
+        margin: 15px;
+        font-family: "VT323", monospace;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 50;
+        letter-spacing: 3px;
+    }
+    .pokeball{
+        display: none;
+    }
+    #bells:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0vBAEiFRP80Tkkq8RHmsNBVsDAxETN2A7QQ&s);
+        transition-duration: 0.5s;
+    }
+    #bulba:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbO42Xttf-c5_qekEpefeuIa9mb5TN0tvqE6rSwW1P8z4hAEX-jetPlR3QqentvBO48nQ&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #cater:hover{
+        background-position: center;
+        background-image: url(https://wallpapers.com/images/hd/cute-pokemon-caterpie-pattern-oy9l4xmq0ctbsctq.jpg);
+        transition-duration: 0.5s;
+    }
+    #char:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbn_FDLtdQcwNQSI9kFzHIguv0qIWbOsDI_X6bb1iofq138sr9qLELSnGy1VsuypN1T-Y&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #drati:hover{
+        background-position: center;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/128/921/267/tail-pokemon-background-dratini-wallpaper-preview.jpg);
+        transition-duration: 0.5s;
+    }
+    #eevee:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ff0958eb-64ac-4660-97c3-97617a261ed7/ddo4pgz-15562dfc-4f58-494a-922c-9d9a286ae4c5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZmMDk1OGViLTY0YWMtNDY2MC05N2MzLTk3NjE3YTI2MWVkN1wvZGRvNHBnei0xNTU2MmRmYy00ZjU4LTQ5NGEtOTIyYy05ZDlhMjg2YWU0YzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vH-Fnq265W7Qp20-T3ETXTQePCrnn8Og1wECgAMtKy0);
+        transition-duration: 0.5s;
+    }
+    #jiggly:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26887395-78f4-441d-a6e0-cc877fa24b54/deem1e2-b544d5cc-b9e2-4ac9-94b7-5ccd74161f75.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ODg3Mzk1LTc4ZjQtNDQxZC1hNmUwLWNjODc3ZmEyNGI1NFwvZGVlbTFlMi1iNTQ0ZDVjYy1iOWUyLTRhYzktOTRiNy01Y2NkNzQxNjFmNzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3ofnlCTNZ62FPBLzn3FqW_OGav8YzbkSXiTuRqJDW60);
+        transition-duration: 0.5s;
+    }
+    #meowth:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLrPtyu9JiEvMDvlH4GIbZqUpCT1bDaYliCebepxn93t3Qzff0_WfugCJuXD_wTWGpr0&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #mew:hover{
+        background-position: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Uj1SUu3JnonFqiSFJP0ocQ2ES-KtVW_5MBxLfA3hYkmxkzpKncuEg-6SwkWFXBFMcJI&usqp=CAU);
+        transition-duration: 0.5s;
+    }
+    #pika:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26887395-78f4-441d-a6e0-cc877fa24b54/deejrt3-3c33eed3-d378-4f78-b8c6-fc6fa60575d9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ODg3Mzk1LTc4ZjQtNDQxZC1hNmUwLWNjODc3ZmEyNGI1NFwvZGVlanJ0My0zYzMzZWVkMy1kMzc4LTRmNzgtYjhjNi1mYzZmYTYwNTc1ZDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GLyG-NJ33bIHSVsd14MaodgIjhnEw-OvpmRtiyucEG0);
+        transition-duration: 0.5s;
+    }
+    #psy:hover{
+        background-position: center;
+        background-image: url(https://w0.peakpx.com/wallpaper/168/922/HD-wallpaper-psyducks-cartoons-cute-pattern-pokemon-psyduck-sweet-thumbnail.jpg);
+        transition-duration: 0.5s;
+    }
+    #zubat:hover{
+        background-position: center;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/30d00acf-6b20-43e6-aae0-278a73505ab0/ddgjq55-a7e241a2-6f28-4768-b78a-66f198705701.png/v1/fill/w_711,h_668,q_80,strp/zubat_line_pattern_by_andcetera_ddgjq55-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjY4IiwicGF0aCI6IlwvZlwvMzBkMDBhY2YtNmIyMC00M2U2LWFhZTAtMjc4YTczNTA1YWIwXC9kZGdqcTU1LWE3ZTI0MWEyLTZmMjgtNDc2OC1iNzhhLTY2ZjE5ODcwNTcwMS5wbmciLCJ3aWR0aCI6Ijw9NzExIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.11taqvWC1Bro74t8jk6oi3VlHt0Zr2uj0nVgLU_7q1E);
+        transition-duration: 0.5s;
+    }
+}
