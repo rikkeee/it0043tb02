@@ -1,93 +1,213 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jacquard+12&family=VT323&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.monster-container{
+body{
+    background-image: url(https://images.alphacoders.com/132/1324264.jpeg);
+    background-size: cover;
+}
+
+.monster-container {
     margin: 20px auto;
     display: grid;
-    width: 60%;
+    width: 70%;
     gap: 10px;
     border: 5px solid black;
     padding: 10px;
     grid-template-columns: repeat(4, 1fr);
+    background-image: url(https://i.pinimg.com/564x/01/97/cd/0197cd31c8901df115d2296b104d9d30.jpg);
+    background-size: cover;
 }
 
-.item{
+.item {
     margin: 0px auto;
-    /* width: 300px;
-    height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
-    /* align-items: center; */
     text-align: center;
     box-shadow: 1px 2px 3px grey;
     border-radius: 10px;
     color: #222;
-    /* font-size: 2em; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     cursor: pointer;
-}
-.details{
-    padding: 10px;
+    padding: 15px;
 }
 
-#safi{
+.details {
+    padding: 10px;
+    place-items: center;
+}
+
+#safi {
     background-color: maroon;
     grid-column: 1/3;
 }
 
-#rathian{
+#safi:hover {
+    .name-species {
+        background-color: bisque;
+        border-radius: 10px;
+        opacity: 70%;
+        transition: 1s all EASE;
+    }
+
+    background-image: url(https://64.media.tumblr.com/1d2d5bedb6ddad554f90a54b953fd11d/519987d1561a936d-6c/s640x960/bb034b2fd2ecbcdfbb07e44a425537a3cce8bd34.gif);
+    background-size: cover;
+    background-position: center;
+    transition: 1s all EASE;
+}
+
+#rathian {
     background-color: olive;
+    grid-column: 3/4;
 }
 
-#zinogre{
+#rathian:hover {
+    .name-species {
+        background-color: bisque;
+        border-radius: 10px;
+        opacity: 70%;
+        transition: 1s all EASE;
+    }
+
+    background-image: url(https://64.media.tumblr.com/a7bcf696ace2ca7a5c1b984a4c54d223/tumblr_mmhn9hSvvF1rnrd8no1_500.gif);
+    background-size: cover;
+    background-position: center;
+    transition: 1s all EASE;
+}
+
+#zinogre {
     background-color: wheat;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    /* grid-row: 2/3; */
 }
 
-#brachy{
+#zinogre:hover {
+    .name-species {
+        background-color: bisque;
+        border-radius: 10px;
+        opacity: 70%;
+        transition: 1s all EASE;
+    }
+
+    background-image: url(https://64.media.tumblr.com/57142d9b05cd6c6ee480de350c56146a/a27574d5ecda9b50-29/s540x810/d49618adcf9095aa151f62f13771c4318e15c534.gifv);
+    background-size: cover;
+    background-position: center;
+    transition: 1s all EASE;
+}
+
+#brachy {
     background-color: teal;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 
-#rajang{
+#brachy:hover{
+    .name-species {
+        background-color: bisque;
+        border-radius: 10px;
+        opacity: 70%;
+        transition: 1s all EASE;
+    }
+
+    background-image: url(https://64.media.tumblr.com/7d97cb63367f5e307333126efbc9fa11/tumblr_mn32itS05T1rnrd8no1_500.gif);
+    background-size: cover;
+    background-position: center;
+    transition: 1s all EASE;
+}
+
+#rajang {
     background-color: chocolate;
     grid-column: 4/5;
     grid-row: 1/3;
 }
 
-img{
-    width: 100px;
-    padding: 10px;
+#rajang:hover{
+    .name-species {
+        background-color: bisque;
+        border-radius: 10px;
+        opacity: 70%;
+        transition: 1s all EASE;
+    }
+
+    background-image: url(https://i.makeagif.com/media/10-22-2019/HWo_aK.gif);
+    background-size: cover;
+    background-position: center;
+    transition: 1s all EASE;
 }
 
-.desc{
-    font-size: 10;
+img {
+    width: 150px;
     padding: 5px;
-    /* border: 1px solid black; */
-    border-radius: 10px;
-    margin: 1px auto;
+    align-content: center;
 }
 
-.name-species{
+.desc {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px auto;
+    align-content: bottom;
+    text-align: justify;
+    /* flex-grow: 1; */
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    font-family: "Cinzel", serif;
+    flex-grow: 1;
+}
+
+.name-species {
     padding: 10px;
     gap: 10px;
-}   
+    font-family: "Jacquard 12", system-ui;
+    flex-grow: 2;
+}
 
-.name{
+.name {
     padding: 3px;
-    background-color: bisque;
+    /* background-color: bisque; */
     border-radius: 5px;
     gap: 10px;
-}
-.species{
-    gap: 10px;
-    background-color: bisque;
-    border-radius: 5px;
+    font-size: 26;
+    flex-grow: 2;
 }
 
+.species {
+    /* gap: 10px; */
+    /* background-color: bisque; */
+    border-radius: 5px;
+    font-size: 20;
+}
+
+@media(max-width: 974.40px) {
+    #safi {
+        grid-column: 1/5;
+    }
+
+    #rathian {
+        grid-column: 1/5;
+        /* grid-row: 2/3; */
+    }
+
+    #zinogre {
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+
+    #brachy{
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+
+    #rajang{
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
+
+}
