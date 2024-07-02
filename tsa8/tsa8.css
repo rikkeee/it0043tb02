@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/originals/47/8e/58/478e58979d2510e6d686979261c4a2d9.gif);
+    background-size: cover;
+    background-position: bottom; 
+    align-items: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+p {
+    font-weight: bold;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 40%;
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 7em;
+    color: black;
+    cursor: pointer;
+    font-style: oblique;
+    text-align: center;
+}
+
+.title:hover,
+h1:hover {
+    color: #ffffff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
+
+sup {
+    font-size: 50px;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: url('https://i.pinimg.com/originals/a7/c8/da/a7c8daa172486653ff365f33c6164008.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.controls {
+    display: grid;
+    gap: 15px;
+    padding: 70px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    width: auto;
+}
+
+.left {
+    grid-column: 1 / 2;
+}
+
+.right {
+    grid-column: 3 / 4;
+}
+
+#number {
+    text-align: center;
+}
+
+#gapcontrol {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+}
+
+#gapcontrol button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(239, 115, 181);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#gapcontrol button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black;
+}
+
+#b1,
+#b2,
+#b3 {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#number-gap {
+    padding: 10px;
+    font-size: 1rem;
+    width: 150px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #850050;
+}
+
+#b1, #grow1 {
+    color: rgb(186,125,182);
+}
+
+#b2, #grow2 {
+    color: rgb(2, 19, 154);
+}
+
+#b3, #grow3 {
+    color: rgb(207,218,158);
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(190, 172, 197);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    white-space: normal;
+    text-align: center;
+    margin: 2px;
+    display: inline-block;
+    border-radius: 25px;
+    width: calc(50% - 20px);
+}
+
+#align-start,
+#align-center,
+#align-end {
+    background-color: rgb(130, 117, 218);
+}
+
+#reset-grow,
+#grow-all {
+    background-color: rgb(186, 234, 160);
+}
+
+#row:hover,
+#column:hover {
+    background-color:rgb(215,246,202); 
+    transition: background-color 0.3s;
+}
+
+#reset:hover, 
+#reset-grow:hover, 
+#grow-all:hover{
+    background-color: rgb(213,207,253); 
+    transition: background-color 0.3s;
+}
+
+#align-start:hover,
+#align-center:hover,
+#align-end:hover {
+    background-color: rgb(223, 193, 84);
+    transition: background-color 0.3s;
+}
+
+#reset {
+    background-color: rgb(236, 222, 141);
+    height: 60px;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.controls button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.control-group-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 1fr;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-image: url('containerbgfin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s, box-shadow 0.3s, top 0.3s, left 0.3s, width 0.3s, height 0.3s;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#box1 {
+    background-image: url('dsbg1.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+}
+
+#box2 {
+    background-image: url('dsbg2.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+}
+
+#box3 {
+    background-image: url('dsbg3.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+}
+
+.blue {
+    background-color: rgb(190, 172, 197);
+    border-radius: 10px;
+}
+
+.red {
+    background-color: rgb(119, 139, 217);
+    border-radius: 10px;
+}
+
+.green {
+    background-color: rgb(137, 174, 174);
+    border-radius: 10px;
+}
+
+#row,
+#column {
+    background-color: rgb(137, 174, 174);
+}
+
+#grow-1:hover,
+#gaps:hover,
+#grow-2:hover,
+#grow-3:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}

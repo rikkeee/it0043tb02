@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Control Panel</title>
+    <link rel="stylesheet" href="tsa8.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="title-container">
+        <div class="title">SimBox <sup>1.0</sup> </div>
+
+    </div>
+
+    <div class="container">
+        <div class="controls left">
+            <button id="reset" onclick="reset()">Reset Flexbox</button>
+
+
+            <div id="gapcontrol">
+                <p id="label4gap">Gap Counter</p> <input type="number" id="number-gap" min="0" max="100"
+                    oninput="changegap()">
+                <button id="gap-reset" onclick="resetGap()">Reset Gap</button>
+            </div>
+
+            <div class="flex-direction-controls">
+                <p>Flex Direction</p>
+                <div class="control-group-row">
+                    <button id="row" onclick="flexRow()">Row</button>
+                    <button id="column" onclick="flexColumn()">Column</button>
+                </div>
+            </div>
+
+            <div class="justify-content">
+                <p>Justify Content</p>
+                <div class="control-group-row">
+                    <button id="justify-start" onclick="justifyStart()">Start</button>
+                    <button id="justify-center" onclick="justifyCenter()">Center</button>
+                </div>
+                <div class="control-group-row">
+                    <button id="justify-end" onclick="justifyEnd()">End</button>
+                    <button id="justify-space-between" onclick="spaceBetween()">Space Between</button>
+                </div>
+                <div class="control-group-row">
+                    <button id="justify-space-around" onclick="spaceAround()">Space Around</button>
+                    <button id="justify-space-evenly" onclick="spaceEvenly()">Space Evenly</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="controls right">
+            <div class="align-items">
+                <p>Align Items</p>
+                <div class="control-group-row">
+                    <button id="align-start" onclick="alignStart()">Start</button>
+                    <button id="align-center" onclick="alignCenter()">Center</button>
+                    <button id="align-end" onclick="alignEnd()">End</button>
+                </div>
+            </div>
+    
+            <div class="flex-grow">
+                <p>Flex Grow</p>
+                <div class="control-group-row">
+                    <button id="reset-grow" onclick="resetGrow()">Reset</button>
+                    <button id="grow-all" onclick="growAll()">Grow All</button>
+                </div>
+                <div class="control-group-row">
+                    <p id="grow1">Box 1: </p>
+                    <input type="number" id="b1" min="0" value="0" oninput="grow1()">
+                </div>
+                <div class="control-group-row">
+                    <p id="grow2">Box 2: </p>
+                    <input type="number" id="b2" min="0" value="0" oninput="grow2()">
+                </div>
+                <div class="control-group-row">
+                    <p id="grow3">Box 3: </p>
+                    <input type="number" id="b3" min="0" value="0" oninput="grow3()">
+                </div>
+    
+        </div>
+    
+    </div>
+
+    <div id="flex-container">
+        <div class="circle blue" id="box1">1</div>
+        <div class="circle red" id="box2">2</div>
+        <div class="circle green" id="box3">3</div>
+    </div>
+
+    </div>
+
+    <script src="tsa8.js"></script>
+</body>
+</html>
